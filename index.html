@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Top-Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Free Fire Top-Up Service</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#topup">Top-Up</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Get Your Free Fire Diamonds Instantly!</h2>
+            <p>Fast, secure, and reliable top-up services for Free Fire.</p>
+            <a href="#topup" class="btn-primary">Top-Up Now</a>
+        </div>
+    </section>
+
+    <section id="topup" class="topup">
+        <div class="container">
+            <h2>Choose Your Top-Up Amount</h2>
+            <form id="topup-form">
+                <label for="amount">Amount:</label>
+                <select id="amount" name="amount">
+                    <option value="100">100 Diamonds - $1.00</option>
+                    <option value="500">500 Diamonds - $5.00</option>
+                    <option value="1000">1000 Diamonds - $10.00</option>
+                    <option value="5000">5000 Diamonds - $50.00</option>
+                </select>
+                <button type="submit" class="btn-primary">Proceed to Payment</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Free Fire Top-Up Service. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
